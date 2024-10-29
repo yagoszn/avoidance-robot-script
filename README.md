@@ -2,7 +2,7 @@
 Winter '23/24 Obstacle Avoidance Robot python code. Uses several libraries to to program the Raspberry Pi.
 By Yoseph Tamene and Diego Sanchez
 
-#Abstract
+## Abstract
 The aim of our project is to implement a robot on DC-motor-powered wheels that can detect
 obstacles in front of it and avoid them using an ultrasonic sensor. We want the robot to constantly
 display information on its current state of movement, distance from the obstacle in front of it,
@@ -11,7 +11,7 @@ The outcome of our project was an OLED that generally worked well in avoiding ob
 displaying information about its movement, but lacked some accuracy due to the position of the
 ultrasonic sensor we used as a measuring device of distance.
 
-#Project Description
+## Project Description
 Our obstacle avoidance uses one Raspberry Pi and breadboard to implement the functionality of an
 obstacle avoidance robot using a single HC-SR04 finder, an OLED display, an RGB-compatible
 common cathode LED, and DC motors powered by an external battery. At the robot’s core, we
@@ -19,8 +19,8 @@ have programmed it to keep moving forward and to stop, then move backwards left 
 (depending on a count) when an obstacle is detected. In addition, we have provided visual
 components on both an OLED display and an LED to provide further information for the user.
 
-#Project Objectives
-##Goals:
+## Project Objectives
+### Goals:
 1.   Implement a method of movement via DC motors
 2.   Calculate when the robot should turn using an ultrasonic sensor (Decided on 20cm before the robot stops moving forward)
 3.   Implement an RGBLED component that provides a visual of the current state of movement of the robot
@@ -28,7 +28,7 @@ components on both an OLED display and an LED to provide further information for
      and the distance to the obstacle in front of the robot.
 5.   Implement all necessary components and provide a program that can guide the robot to safely move in another direction when it detects an obstacle. This keeps the robot from completely stopping once an obstacle is met.
 
-#Project Approach
+## Project Approach
 To physically implement the AROD robot’s required components into the Raspberry Pi device,
 we followed the provided Obstacle Avoidance Robot guide. Most notably, in the guide, there
 were details on how to implement the ability to power two DC motors at once natively through
@@ -68,7 +68,7 @@ All recipes used in the implementation of the AROD robot followed the project pr
 submitted. We did not need to change them from our original idea.
 We did not have to abandon certain features that we discussed in our project proposal.
 
-#Conclusion
+## Conclusion
 Overall, the project was a very interesting and enriching experience. While nothing is perfect, we
 are overall satisfied with our version of the obstacle avoidance robot. To be able to implement a
 more sophisticated project in a group environment a mere two months after starting from scratch
